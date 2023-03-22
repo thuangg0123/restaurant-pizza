@@ -336,3 +336,20 @@ strong{
     color: #fff;
     text-decoration: 3px underline;
 }
+
+/* Responsive */
+
+@media (max-width: 467px) {
+    .display-Middle p a{
+        display: inline-block;
+        font-size: 30px;
+    }
+
+    .padding{
+        padding: 10px 35px;
+    }
+
+    .header .navbar{
+        justify-content: space-between;
+    }
+}
