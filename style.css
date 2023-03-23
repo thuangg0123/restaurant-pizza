@@ -353,3 +353,22 @@ strong{
         justify-content: space-between;
     }
 }
+
+@media (min-width: 360px) and (max-width: 466px) {
+    .header .navbar{
+        font-size: unset;
+    }
+
+    .display-Middle p a {
+        display: inline-block;
+        font-size: 24px;
+    }
+
+    .menu{
+        font-size: 24px;
+    }
+
+    .about p{
+        font-size: 20px;
+    }
+}
